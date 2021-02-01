@@ -3,7 +3,7 @@ let color1, color2;
 
 // Assigning Values to Variables (Atribuindo valores p/ variáveis)
 color1 = 'Red';
-color2 = 'Blue'
+color2 = 'Blue';
 
 console.log(color1);
 console.log(color2);

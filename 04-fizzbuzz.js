@@ -7,22 +7,22 @@ Not a number => "Not a Number"
 */
 
 // Declaring a constant returnEntrace and assigning function fizzBuzz 
-const returnEntrace = fizzBuzz(15)
+const returnEntrace = fizzBuzz(15);
 console.log(returnEntrace);
 
 // Declaring function fizzBuuzz
 function fizzBuzz(entrance){
     if (typeof entrance !== 'number') {
-        return "Not a Number"
+        return "Not a Number";
     } else {
         if (entrance % 3 === 0 && entrance % 5 === 0) {
-            return "FizzBuzz"
+            return "FizzBuzz";
         } else if (entrance % 3 === 0) {
-            return "Fizz"
+            return "Fizz";
         } else if (entrance % 5 === 0) {
-            return "Buzz"
+            return "Buzz";
         } else {
-            return entrance
+            return entrance;
         }
     }   
 }

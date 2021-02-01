@@ -14,7 +14,7 @@ let date, hour;
 // Assigning a function Date() for the variable date
 date = new Date();
 
-// Assinging hour for variable hour and transformation in Number
+// Assigning hour for variable hour and transformation in Number
 hour = Number(date.getHours());
 
 console.log(`${hour}`);
